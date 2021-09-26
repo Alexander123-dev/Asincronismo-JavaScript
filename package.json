@@ -1,0 +1,32 @@
+{
+  "name": "asincronismo-javascript",
+  "version": "1.0.0",
+  "description": "Trabajar con asincronismo en JavaScript",
+  "main": "src/index.js",
+  "scripts": {
+    "callback": "node src/callback/index.js",
+    "callback:challenge": "node src/callback/challenge.js",
+    "promise": "node src/Promise/index.js",
+    "promise:challenge": "node src/Promise/challenge.js",
+    "async": "node src/async/indeix.js",
+    "async:challenge": "node src/async/challenge.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alexander123-dev/Asincronismo-JavaScript.git"
+  },
+  "keywords": [
+    "callbacks",
+    "promise",
+    "async"
+  ],
+  "author": "Alexander Mozo <alexandermoznc@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alexander123-dev/Asincronismo-JavaScript/issues"
+  },
+  "homepage": "https://github.com/Alexander123-dev/Asincronismo-JavaScript#readme",
+  "dependencies": {
+    "xmlhttprequest": "^1.8.0"
+  }
+}
